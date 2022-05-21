@@ -1,0 +1,24 @@
+{
+  "name": "open-project",
+  "version": "1.0.0",
+  "description": "Herramienta para optimizar el proceso de carga de un proyecto",
+  "main": "index.js",
+  "bin": {
+    "open-project": "bin/open-project.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaime Diaz",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.1",
+    "commander": "^9.2.0",
+    "dotenv": "^16.0.1",
+    "esm": "^3.2.25",
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
